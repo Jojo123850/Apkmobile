@@ -1,0 +1,196 @@
+*{
+    margin:0;
+    font-family: "Plus Jakarta", sans-serif;
+}
+
+a{
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+a:hover{
+    transition: all 0.3s ease-in-out;
+}
+
+#burger{
+    display: none;
+}
+
+header{
+max-width: 1152px;
+margin: auto;
+opacity: 1;
+height: 112px;
+padding: 15px;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+
+header a {
+    display: block;
+    padding-top: 10px;
+}
+header a img{
+    width: 50%;
+    padding-top: 8px;
+}
+header div{
+    display: flex;
+    gap: 140px;
+    justify-content: space-between;
+    
+}
+header div nav ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    font-family: "Plus Jakarta",sans-serif;
+    align-items: center;
+   
+
+}
+header div a{
+     font-size: 16;
+    color: #475569;
+}
+header .btn{
+    margin:0 65px;
+    font-size: 16px;
+    font-family: "Plus Jakarta", sans-serif;
+    color: #FFFFFF;
+    border: 1px solid;
+    border-radius: 20px;
+    border-color: #0F172A;
+    background-color: #0F172A;
+    padding: 12px 24px;
+}
+
+/* Main */
+#section1{
+    background-color: #F8FAFC;
+    margin-top: 40px;
+}
+
+#section1 div{
+    max-width: 1152px;
+    margin: auto;
+   display: flex;
+}
+#section1 div article .para1{
+    width: fit-content;
+    border: 1px solid;
+    border-radius:20px ;
+    background-color: #E0E7FF;
+    padding: 12px 24px;
+    color:#4338CA ;
+    font-style: italic;
+    padding: 8px 16px;
+    border-color:#E0E7FF ;
+    font-weight: 700;
+    font-size: 14px;
+
+}
+
+#section1 div h1{
+    font-size: 72px;
+}
+#section1 span{
+    color: blue;
+}
+#section1 div article .para2{
+    font-family: "Plus Jakarta", sans-serif;
+font-weight: 400;
+font-size:20px;
+letter-spacing: 0%;
+margin-top: 40px;
+line-height: 34px;
+color: #475569;
+
+}
+
+#section1 .div2 img{
+    width: 520px;
+}
+
+#section1 .btn0{
+    margin-top: 40px;
+    gap: 10px;
+
+}
+#section1 .btn1{
+    font-size: 16px;
+    font-family: "Plus Jakarta", sans-serif;
+    color: #FFFFFF;
+    border: 1px solid;
+    border-radius: 20px;
+    border-color: #0F172A;
+    background-color: #0F172A;
+    padding: 12px 24px;
+}
+#section1 .btn1:hover{
+    color: #0F172A;
+    background-color: #FFFFFF;
+}
+
+#section1 .btn2{
+    font-size: 16px;
+    font-family: "Plus Jakarta", sans-serif;
+    color: #0F172A ;
+    border: 1px solid;
+    border-radius: 20px;
+    border-color: #FFFFFF;
+    background-color: #FFFFFF;
+    padding: 12px 24px;
+
+}
+#section1 .btn2:hover{
+    color: #FFFFFF;
+    background-color:#0F172A;
+}
+
+
+/* Footer */
+footer{
+background-color:#0F172A ;
+}
+footer div{
+    max-width: 1552px;
+margin: auto;
+opacity: 1;
+height: 112px;
+padding: 15px;
+display: flex;
+align-items: center;
+color: #94A3B8;
+gap: 40px;
+justify-content: space-between;
+
+}  
+footer a {
+    display: block;
+    padding-top: 10px;
+}
+footer a img{
+    width: 50%;
+    padding-top: 8px;
+}
+
+footer div nav ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    font-family: "Plus Jakarta",sans-serif;
+    align-items: center;
+   
+
+}
+footer a{
+    font-size: 16;
+    color: #94A3B8;
+}
+
+footer p{
+    color: #94A3B8;
+    font-size: 16px;
+}
+   
