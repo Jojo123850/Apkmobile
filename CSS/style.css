@@ -147,6 +147,75 @@ color: #475569;
     color: #FFFFFF;
     background-color:#0F172A;
 }
+#section1 .div2{
+    position: relative;
+}
+#section1 .Para{
+    position: absolute;
+    right: -45px;
+   bottom:140px;
+   display: flex;
+   gap: 10px;
+   border:  White;
+   background-color: #FFFFFF;
+   border-radius: 15px;
+   padding: 15px;
+   margin-left: 20px;
+}
+
+#section1 .div2 div{
+    display: block;
+}
+
+#section1 .para111{
+    text-align: center;
+    color: #16A34A;
+    border: #16A34A;
+    border-radius:20px;
+    width: 40px;
+    height: 40px;
+    background-color: #DCFCE7;
+    align-content: center;
+  font-weight: 700;
+
+}
+#section1 .para222{
+color: #0F172A;
+font-family: "Plus Jakarta", sans-serif;
+font-weight: 700;
+font-style: Bold;
+font-size: 12px;
+letter-spacing: 0%;
+vertical-align: middle;
+
+}
+#section1 .para333{
+    color:#64748B ;
+font-weight: 400;
+font-style: Regular;
+font-size: 10px;
+line-height: line 15;
+letter-spacing: 0%;
+vertical-align: middle;
+
+}
+
+#section2{
+    max-width: 1152px;
+    margin: auto;
+    width: 1152px;
+    height: 480px;
+    gap: 80px;
+    opacity: 1;
+    padding-right: 24px;
+    padding-left: 24px;
+
+}
+#section2 article{
+   text-align: center;
+    margin-top: 60px;
+}
+
 
 
 /* Footer */
