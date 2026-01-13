@@ -10,7 +10,7 @@ a{
 a:hover{
     transition: all 0.3s ease-in-out;
 }
-p,h1,h2{
+p,h1,h2,h3, nav, a{
      font-family: "Plus Jakarta", sans-serif;
 }
 
@@ -298,7 +298,6 @@ margin-bottom:20px ;
     max-width: 1152px;
     margin: auto;
     display: flex;
-    gap: 40px;
    margin-bottom: 40px;
 }
 #section3 article{
@@ -338,6 +337,16 @@ width: 518px;
 color: #475569;
 
 }
+#section3 h3{
+font-weight: 700;
+font-style: Bold;
+font-size: 18px;
+line-height: 28px;
+letter-spacing: 0%;
+vertical-align: middle;
+color: #0F172A;
+}
+
 #section3 .divsec31{
     margin-top: 80px;
 }
