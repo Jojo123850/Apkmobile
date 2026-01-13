@@ -204,16 +204,48 @@ vertical-align: middle;
     max-width: 1152px;
     margin: auto;
     width: 1152px;
-    height: 480px;
-    gap: 80px;
     opacity: 1;
     padding-right: 24px;
     padding-left: 24px;
 
 }
-#section2 article{
+#section2 .art {
    text-align: center;
-    margin-top: 60px;
+   margin-top: 60px;
+margin-bottom: 60px;
+}
+#section2 .art h1{
+font-family: "Plus Jakarta", sans-serif;
+font-style: Extrabold;
+font-size: 36px;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+color: #0F172A;
+
+}
+#section2 .art p{
+font-size: 16px;
+margin-top: 10px;
+text-align: center;
+justify-self: center;
+width: 672px;
+margin-top: 20px;
+color: #64748B;
+
+
+}
+#section2 div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 100px;
+
+}
+#section2 span #warning{
+    margin-bottom: 40px;
+    width: 56px;
+    height: 56px;
+    color: #EA580C;
 }
 
 
@@ -233,6 +265,7 @@ align-items: center;
 color: #94A3B8;
 gap: 40px;
 justify-content: space-between;
+font-weight: 700;
 
 }  
 footer a {
