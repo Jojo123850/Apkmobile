@@ -28,6 +28,9 @@ display: flex;
 justify-content: space-evenly;
 align-items: center;
 }
+#burger{
+    display: none;
+}
 
 header a {
     display: block;
@@ -299,6 +302,7 @@ margin-bottom:20px ;
     margin: auto;
     display: flex;
    margin-bottom: 40px;
+   gap: 40px;
 }
 #section3 article{
     display: flex;
@@ -337,6 +341,9 @@ width: 518px;
 color: #475569;
 
 }
+.Para1 p{
+    width: 30%;
+}
 #section3 h3{
 font-weight: 700;
 font-style: Bold;
@@ -352,12 +359,12 @@ color: #0F172A;
 }
 #section3 .divsec32{
     background-color: #FFFFFF;
-    padding: 32px;
     border: 1px solid;
     border-radius: 30px;
     border-color: #FFFFFF;
     width: 524px;
     margin-top: 80px;
+    
 }
 #divsec321{
     background-color: #F8FAFC;
@@ -365,8 +372,7 @@ color: #0F172A;
     border: 1px solid;
     border-radius: 30px;
     border-color: #FFFFFF;
-    width: 458px;
- 
+    width: -webkit-fill-available;
     height: 458px;
     justify-self: center;
     text-align-last: center;
@@ -519,4 +525,58 @@ footer p{
     color: #94A3B8;
     font-size: 16px;
 }
-   
+
+
+/* RESPONSIVE TELEPHONE */
+
+@media screen and (max-width:767px) {
+      #burger{
+        display: block;
+        margin-top: 10px;
+    }
+
+    header div nav ul{
+        display: none;
+    }
+    header{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+}
+header .essai{
+    display: flex;
+    gap: 2px;
+}
+    #section1 div {
+        display: grid;
+    grid-template-columns: 1fr;
+}
+#section1 .btn1{
+    text-align: center;
+    padding: 40px;
+}
+
+.Para{
+    display: none;
+}
+#section2 div{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.divvv{
+    display: grid;
+    grid-template-columns: 1fr;
+
+} 
+#section4 #div0{
+
+     display: grid;
+    grid-template-columns: 1fr;
+    gap: 0;
+    margin-bottom: 10px;
+
+    
+}
+.sec4div{
+    margin-bottom: 5px;
+}
+}
